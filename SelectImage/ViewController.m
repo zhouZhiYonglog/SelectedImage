@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "ZZYPhotoHelper.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -25,5 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)clicked:(UIButton *)sender {
+    [[ZZYPhotoHelper shareHelper] showImageViewSelcteWithResultBlock:^(id data) {
+        self.imageView.image = (UIImage *)data;
+    }];
+}
 
 @end

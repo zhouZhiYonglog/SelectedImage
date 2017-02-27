@@ -13,6 +13,7 @@
 		21E24E201E63D7F600D865A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E24E1E1E63D7F600D865A8 /* Main.storyboard */; };
 		21E24E221E63D7F600D865A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E24E211E63D7F600D865A8 /* Assets.xcassets */; };
 		21E24E251E63D7F600D865A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E24E231E63D7F600D865A8 /* LaunchScreen.storyboard */; };
+		21E24E2E1E63D86400D865A8 /* ZZYPhotoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E24E2D1E63D86400D865A8 /* ZZYPhotoHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		21E24E211E63D7F600D865A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21E24E241E63D7F600D865A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21E24E261E63D7F600D865A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E24E2C1E63D86300D865A8 /* ZZYPhotoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZYPhotoHelper.h; sourceTree = "<group>"; };
+		21E24E2D1E63D86400D865A8 /* ZZYPhotoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZYPhotoHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				21E24E191E63D7F500D865A8 /* AppDelegate.m */,
 				21E24E1B1E63D7F500D865A8 /* ViewController.h */,
 				21E24E1C1E63D7F500D865A8 /* ViewController.m */,
+				21E24E2C1E63D86300D865A8 /* ZZYPhotoHelper.h */,
+				21E24E2D1E63D86400D865A8 /* ZZYPhotoHelper.m */,
 				21E24E1E1E63D7F600D865A8 /* Main.storyboard */,
 				21E24E211E63D7F600D865A8 /* Assets.xcassets */,
 				21E24E231E63D7F600D865A8 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 			files = (
 				21E24E1D1E63D7F500D865A8 /* ViewController.m in Sources */,
 				21E24E1A1E63D7F500D865A8 /* AppDelegate.m in Sources */,
+				21E24E2E1E63D86400D865A8 /* ZZYPhotoHelper.m in Sources */,
 				21E24E171E63D7F500D865A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
