@@ -4,3 +4,5 @@
         self.imageView.image = (UIImage *)data;
 }];
 2.如需自定义图片来源选项弹出视图，也可修改该文件，封装到文件里面，减少控制器代码量。
+
+ ![image](https://github.com/zhouZhiYonglog/SelectedImage/blob/master/SelectImage/图片选择.gif)
